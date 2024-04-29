@@ -1,0 +1,6 @@
+"use strict";
+var i = 5;
+// ...
+var i = 10;
+// ...
+console.log(i); // i is 10
