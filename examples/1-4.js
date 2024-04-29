@@ -17,3 +17,10 @@ function displayWeekdayMottos() {
     console.log("Finish it Friday!")
 }
 displayWeekdayMottos();
+
+function displayWeekdayMottos() {
+    console.log("Make it Happen Monday!")
+    console.log("Tackle it Tuesday!")
+    console.log("Finish it Friday!")
+}
+displayWeekdayMottos();

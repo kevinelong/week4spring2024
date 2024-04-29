@@ -12,7 +12,9 @@ function favoritePlace(){
     console.log("Pacific Northwest");
 }
 
+//Execute/Call/Invoke function
 favoriteThings()
 whyImHere() 
 favoritePlace()
+
 //////////////////////////////

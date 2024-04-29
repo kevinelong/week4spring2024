@@ -1,5 +1,5 @@
 function convertFtoC(f) {
-    let c =( f - 32) * (5/9) // search for formula
+    let c = (f - 32) * (5/9) // search for formula
     return c
 }
 

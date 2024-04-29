@@ -2,14 +2,17 @@
 function displayMailingLabel(name, address, city, state, zip) {
     console.log(name);
     console.log(address);
-    console.log(city + ",",state,zip)
-    // console.log(city + ", " + state + " " + zip)
-    // console.log(`${city}, ${state} ${zip}`); //tempplate string backtic
+    //console.log(city + ",",state,zip)
+    console.log(city + ", " + state + " " + zip)
+    //console.log(`${city}, ${state} ${zip}`); //template string backtic
 }
 displayMailingLabel("Kevin", "1750 6th", "Columbia City", "OR", "97018")
+displayMailingLabel("Nina", "123 main st", "LAKE STEVENS", "WA", "95555")
 
 function addNumbers(num1, num2){
-    console.log(num1, "+", num2, "=", num1 + num2)
+    console.log(num1, "+", num2, "=", num1 + num2);
+    console.log(num1 + " + " + num2 + " = " + (num1 + num2));
+    console.log(`${num1} + ${num2} = ${num1 + num2}`)
 }
 addNumbers(6,7)
 

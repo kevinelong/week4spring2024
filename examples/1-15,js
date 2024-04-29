@@ -14,6 +14,6 @@ function add(num1, num2) {
 }
 
 // elsewhere
-let a = 10, b = 20, c;
+let a = 10, b = 20, c; //notice multiple declarations on one line
 c = add(a, b);
 console.log("The sum of " + a + " and " + b + " is " + c);

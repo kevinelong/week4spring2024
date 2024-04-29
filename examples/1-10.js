@@ -7,3 +7,5 @@ let y = 200;
 let z = Math.abs(x - y);
 
 //NOTE: we see no output without console.log being called.
+// console.log(num)
+// console.log(z)

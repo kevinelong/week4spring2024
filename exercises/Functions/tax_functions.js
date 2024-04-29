@@ -1,16 +1,30 @@
+function percentToFraction(p){
+    const fraction = p / 100;
+    return fraction;
+}
 function getSocSecTax(grossPay) {
-    const ratePercent = 6.2
-    const fractionRate = ratePercent / 100
-    let tax = fractionRate * grossPay;
-    return tax;
-    //vs simplified
-    //return 0.062 * grossPay;
+    //MOST CLEAR
+    // const ratePercent = 6.2;
+    // const fractionRate = ratePercent / 100;
+    // let tax = fractionRate * grossPay;
+    // return tax;
+
+    //LEAST WORK FOR CPU
+    return 0.062 * grossPay;
+
+    //COMPROMISE
+    // return (6.2 / 100) * grossPay;
+
+    //ANOTHER KIND OF CLARITY
+    // return percentToFraction(6.2) * grossPay;
 }
 console.log(getSocSecTax(2000));
 
 function getMedicareTax(grossPay) {
-    return grossPay * 0.145;
+    const rate = 1.45 / 100;
+    return grossPay * rate;
 }
+
 console.log(getMedicareTax(2000));
 
 function getFederalTax(grossPay, withholdingCode) {
