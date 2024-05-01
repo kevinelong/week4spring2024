@@ -12,7 +12,8 @@ function handleClick(e){
 function handleLoaded(e){
     const displayButton = document.getElementById("displayButton");
 
-    displayButton.addEventListener("click", handleClick);
+    // displayButton.addEventListener("click", handleClick);
+    displayButton.onclick = handleClick;
 }
 document.addEventListener("DOMContentLoaded", handleLoaded);
 
