@@ -1,0 +1,6 @@
+let d = new Date();
+console.log(d);
+//EXAMPLE OUTPUT IN CODERUNNER
+//2024-05-01T15:26:08.416Z
+//EXAMPLE OUTPUT IN A BROWSER or NODEJS DEBUGGER
+// Wed May 01 2024 08:26:28 GMT-0700 (Pacific Daylight Time)
