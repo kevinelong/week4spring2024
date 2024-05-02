@@ -24,8 +24,9 @@ function tax2(amount){
 }
 console.log(tax(1000));
 console.log(tax2(1000));
+
 //IIFE(Immediatly Invoked Function Expression)
-(()=>{
+(()=>{ //CLOSURE TO CONTROL SCOPE
     var x = 123;
     console.log(x);
 })();
