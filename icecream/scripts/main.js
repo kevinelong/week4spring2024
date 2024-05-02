@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
     function updateDisplay(){
-        if(cupElement.checked){
+        const cup = cupElement.checked; //EVEN THOUGH ITS A RADIO
+
+        if(cup){
             toppings.classList.remove("hidden")
         }else{
             toppings.classList.add("hidden")
