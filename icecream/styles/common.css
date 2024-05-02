@@ -26,3 +26,11 @@ th, .toppings>* {
 .toppings table {
     border: 1px solid black
 }
+*{
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
+}
+.hidden{
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
+}
